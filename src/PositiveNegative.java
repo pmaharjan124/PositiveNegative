@@ -5,16 +5,16 @@ public class PositiveNegative {
     {
         int num;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please enter a number: ");
+        System.out.print("Enter a number: ");
         num = sc.nextInt();
-        System.out.println(" It is =" + num);
- 
+
+
         if (num == 0) {
-            System.out.println("given number is zero");
+            System.out.println("It is zero");
         } else if (num > 0) {
-            System.out.println("given number is Positive");
+            System.out.println("It is Positive");
         } else {
-            System.out.println("given number is Negative");
+            System.out.println("It is Negative");
 
         }
 
